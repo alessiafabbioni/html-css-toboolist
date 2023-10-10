@@ -12,3 +12,10 @@
     font-size: 36px;
     font-weight: 600;
 }
+
+/* Main */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
