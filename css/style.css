@@ -7,6 +7,7 @@
 }
 
 
+
 /* Header*/
 #title {
     font-size: 36px;
@@ -19,10 +20,26 @@
     margin: 0 auto;
 }
 
+.task_container {
+    background-color: azure;
+    width: 80%;
+}
+
+
 #add_task_button {
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
     margin-top: 20 px;
     cursor: pointer;
+    border-radius: 50%;
+}
+
+#add_list_button {
+    background-color: white;
+    color: gray;
+    padding: 10px 20px;
+    margin-top: 20 px;
+    cursor: pointer;
+    border-radius: 50%;
 }
