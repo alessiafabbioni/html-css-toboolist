@@ -92,15 +92,14 @@
     margin-right: 3px;
   }
   
-  .editorial-button {
-    background-color: #007bff;
+  .pills {
     padding: 6px;
     border-radius: 10px;
     color: white;
     margin-left: 10px;
     font-size: 10px;
   }
-  
-  .recruiting-button {
-    background-color: green;
+
+  .editorial_button {
+    background-color: #007bff;
   }
