@@ -45,3 +45,9 @@
     border: 2px;
     border-color: gray;
 }
+
+.list_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
