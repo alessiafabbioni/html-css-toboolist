@@ -32,7 +32,7 @@
     padding: 10px 20px;
     margin-top: 20 px;
     cursor: pointer;
-    border-radius: 90%;
+    border-radius: 12px;
 }
 
 #add_list_button {
@@ -41,5 +41,5 @@
     padding: 10px 20px;
     margin-top: 20 px;
     cursor: pointer;
-    border-radius: 90%;
+    border-radius: 12px;
 }
