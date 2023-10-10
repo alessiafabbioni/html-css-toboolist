@@ -1,0 +1,13 @@
+/*General Style*/
+
+:root {
+    font-family: Arial;
+    font-size: medium;
+}
+
+
+
+/* Header*/
+#title {
+    font-size: large;
+}
