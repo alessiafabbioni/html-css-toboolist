@@ -47,3 +47,10 @@
     font-weight: bold;
 }
 
+.done ::after {
+    content: \2611;
+}
+
+.not_done ::after {
+    content: \2612;
+}
