@@ -10,6 +10,7 @@
   #title {
     font-size: 36px;
     font-weight: 600;
+    display: flex;
   }
   
   /* Main */
