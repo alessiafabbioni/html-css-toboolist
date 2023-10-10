@@ -12,19 +12,38 @@
     font-weight: 600;
     align-content: center;
   }
+ /* Da verificare: perché non mi si allinea il testo?*/
   
   /* Main */
+  /*Container grigio grosso*/
   .main-container {
     background-color: lightgray;
     padding: 30px;
   }
-  
+  /*Container task list*/
   .container {
     background-color: white;
     margin: auto;
     width: 50%;
     margin: 0 auto;
   }
+
+  .task-list-container {
+    margin: 30px;
+  }
+
+
+   /*Singoli elementi della tasklist*/
+  .task_list_headline {
+    display: flex;
+    align-items: center;
+  }
+
+  .list_title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
   
   .task_element{
     display: flex; 
@@ -32,6 +51,7 @@
     align-items: center;
   }
   
+  /*Add task/list buttons*/
   #add_task_button {
     background-color: #007bff;
     color: white;
@@ -51,21 +71,6 @@
     cursor: pointer;
     border-radius: 12px;
     border: 2px solid gray;
-  }
-  
-  .list_title {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  /* Add task/list button*/
-  .task_list_headline {
-    display: flex;
-    align-items: center;
-  }
-  
-  .task-list-container {
-    margin: 30px;
   }
   
   /* Symbol settings*/
