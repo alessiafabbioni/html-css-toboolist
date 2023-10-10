@@ -16,12 +16,12 @@
 
 /* Main */
 .container {
+    
     max-width: 960px;
     margin: 0 auto;
 }
 
 .task_container {
-    background-color: azure;
     width: 80%;
 }
 
