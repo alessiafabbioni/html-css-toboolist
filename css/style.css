@@ -19,3 +19,9 @@
     margin: 0 auto;
 }
 
+#add_task_button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20 px;
+}
