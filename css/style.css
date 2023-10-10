@@ -13,7 +13,6 @@
   }
   
   /* Main */
-  
   .main-container {
     background-color: lightgray;
     padding: 30px;
@@ -58,6 +57,26 @@
     font-weight: bold;
   }
   
+  /* Add task/list button*/
+  .task_list_headline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-list-container {
+    margin: 30px;
+  }
+  
+  /* Symbol settings*/
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-right: 3px;
+  }
+
   .done:after {
     content: '✔';
     position: relative;
@@ -74,24 +93,7 @@
     margin-right: 10px;
   }
   
-  .headline-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .task-list-container {
-    margin: 30px;
-  }
-  
-  .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid black;
-    margin-right: 3px;
-  }
-  
+  /*Tag button settings*/
   .pills {
     padding: 6px;
     border-radius: 10px;
@@ -106,4 +108,20 @@
 
   .recruiting_button {
     background-color: gold;
+  }
+
+  .q1_goals_button {
+    background-color: lightcoral;
+  }
+
+  .mobile_button {
+    background-color: lightgreen;
+  }
+
+  .website_button {
+    background-color: maroon;
+  }
+
+  .sales_button {
+    background-color: lightsalmon;
   }
